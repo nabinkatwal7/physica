@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/nabinkatwal7/physica/examples"
+	//"github.com/nabinkatwal7/physica/examples"
 )
 
 type Game struct{}
@@ -26,5 +26,6 @@ func main() {
 	//	if err := ebiten.RunGame(&Game{}); err != nil {
 	//		log.Fatal(err)
 	//	}
-	examples.RunAnimation()
+
+	//examples.RunAnimation()
 }
