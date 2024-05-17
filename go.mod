@@ -2,7 +2,10 @@ module github.com/nabinkatwal7/physica
 
 go 1.21.1
 
-require github.com/hajimehoshi/ebiten/v2 v2.7.3
+require (
+	github.com/hajimehoshi/ebiten v1.12.12
+	github.com/hajimehoshi/ebiten/v2 v2.7.3
+)
 
 require (
 	github.com/ebitengine/gomobile v0.0.0-20240329170434-1771503ff0a8 // indirect
