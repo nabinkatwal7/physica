@@ -3,7 +3,8 @@ package main
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/nabinkatwal7/physica/mosaic"
+	//"github.com/nabinkatwal7/physica/mosaic"
+	"github.com/nabinkatwal7/physica/noise"
 	//"github.com/nabinkatwal7/physica/hsv"
 	//"github.com/nabinkatwal7/physica/infinitescroll"
 	//github.com/nabinkatwal7/physica/filter"
@@ -41,5 +42,6 @@ func main() {
 	//font.RunFont()
 	//hsv.RunHSV()
 	//infinitescroll.RunInfiniteScroll()
-	mosaic.RunMosaic()
+	//mosaic.RunMosaic()
+	noise.RunNoise()
 }
