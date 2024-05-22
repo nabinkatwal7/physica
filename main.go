@@ -3,8 +3,9 @@ package main
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
+	"github.com/nabinkatwal7/physica/mosaic"
 	//"github.com/nabinkatwal7/physica/hsv"
-	"github.com/nabinkatwal7/physica/infinitescroll"
+	//"github.com/nabinkatwal7/physica/infinitescroll"
 	//github.com/nabinkatwal7/physica/filter"
 	//"github.com/nabinkatwal7/physica/flood"
 	//"github.com/nabinkatwal7/physica/font"
@@ -39,5 +40,6 @@ func main() {
 	//flood.RunFlood()
 	//font.RunFont()
 	//hsv.RunHSV()
-	infinitescroll.RunInfiniteScroll()
+	//infinitescroll.RunInfiniteScroll()
+	mosaic.RunMosaic()
 }
